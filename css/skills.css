@@ -1,0 +1,110 @@
+/**********SKILLS CSS***********/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#skillsbar{
+	background-color: #E26A6A;
+	height: 400px;
+	padding: 5%;
+}
+
+.blue{
+	background-color: #59ABE3;
+	width: 70%;
+}
+.orange{
+	background-color: #F22613;
+	width: 90%;
+}
+.yellow{
+	background-color: #F39C12;
+	width: 60%;
+}
+.green{
+	background-color: #2ECC71;
+	width: 95%;
+}
+.dblue{
+	background-color: #0000FF;
+	width: 70%;
+}
+.lorange{
+	background-color: #F64747;
+	width: 50%;
+}
+.purple{
+	background-color: #663399;
+	width: 60%;
+}
+
+span2{
+	text-align: left;
+	margin-left: 5%;
+	text-shadow: 1px 1px #fff;
+}
+span3{
+	color: #000;
+	float: right;
+	margin-right: 5%;
+	text-shadow: 1px 1px #fff;
+}
+#inner{
+	font-weight: bold;
+	position: relative;
+	background-image: 
+			   -webkit-gradient(linear, 0 0, 100% 100%, 
+			      color-stop(.75, rgba(255, 255, 255, .2)), 
+			      color-stop(.75, transparent), color-stop(.5, transparent), 
+			      color-stop(.5, rgba(255, 255, 255, .2)), 
+			      color-stop(.25, rgba(255, 255, 255, .2)), 
+			      color-stop(.25, transparent), to(transparent)
+			   );
+			z-index: 1;
+			-webkit-background-size: 50px 50px;
+			-moz-background-size: 50px 50px;
+			-webkit-animation: move 2s linear infinite;
+			   -webkit-border-top-right-radius: 8px;
+			-webkit-border-bottom-right-radius: 8px;
+			       -moz-border-radius-topright: 8px;
+			    -moz-border-radius-bottomright: 8px;
+			           border-top-right-radius: 8px;
+			        border-bottom-right-radius: 8px;
+			    -webkit-border-top-left-radius: 20px;
+			 -webkit-border-bottom-left-radius: 20px;
+			        -moz-border-radius-topleft: 20px;
+			     -moz-border-radius-bottomleft: 20px;
+			            border-top-left-radius: 20px;
+			         border-bottom-left-radius: 20px;
+			overflow: hidden;
+
+}
+
+@-webkit-keyframes move {
+		    0% {
+		       background-position: 0 0;
+		    }
+		    100% {
+		       background-position: 50px 50px;
+		    }
+		}
+
+#outer{
+	border: 10px #000 solid;
+	border-radius: 20px;
+	position: relative;
+	width: 85%;
+	background-color: #000;
+	z-index: 1;
+	height: 18px;
+	padding: .2%;
+	margin-left: 5%;
+}
+
+@media screen and (max-width:450px){
+	#inner{
+		font-size: 73%;
+	}
+}
